@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 // A relative path keeps the request on the same origin as the page, so the browser
 // asks for no CORS permission. Replacing this with a full URL on another host is
 // what turns the same fetch into a cross-origin request.
-const FEED_URL = "http://34.233.106.192/posts";
+const FEED_URL = "http://chirp-t1b-123.s3-website-us-east-1.amazonaws.com";
 
 function PostCard({ post }) {
   return (
